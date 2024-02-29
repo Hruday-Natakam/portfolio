@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hruday Natakam | Data science student</title>
+        <meta name="author" content="Hruday Natakam">
+        <meta name="keywords" content="skills, career Goal, education, hobbies">
+        <meta name="description" content="Portofolio Website of Hruday">
+        <link rel="icon" type="image/x-icon" href="fevicon.ico"><!--this is used for icon in the tab-->
+        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="style6.css">
+    </head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="https://i.postimg.cc/4dp99hQf/cropped-image.png" alt="Hruday logo" class="header__logo-img" title="&copy;Hruday Natakam" ><!--alt is description of image-->
+                </div>
+                <span class="header__logo-sub"><a href="https://student.csc.liv.ac.uk/~sghnatak/wp-assignment/test3.shtml">Hruday Natakam</a></span>
+            </div>
+            <input type="checkbox" id="ham-menu-toggle" class="header__main-ham-menu-checkbox"><!--using a checklist to make hambarger menu in mobile view-->
+            <label for="ham-menu-toggle" class="header__main-ham-menu">
+                
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="header__nav">
+                <li class="header__link-wrapper">
+                    <a href="#hero" class="header__link">Home</a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a href="#career-goal" class="header__link">Career Goal</a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a href="#education" class="header__link">Education</a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a href="#work-experience" class="header__link">Work Experience</a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a href="#skills" class="header__link">Skills</a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a href="#hobbies" class="header__link">Hobbies</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+      <h2 class="heading-sec__main">Hruday Natakam</h2><br>
+        <section id="hero" class="hero">
+        <div class="main-container">
+            <div class="left-side">
+                <div class="hero-sec" >
+                    <div class="left-side">
+                        <h2 class="heading-sec">Personal Information</h2>
+                        <div class="hero-pic"><img src="https://i.postimg.cc/Lsc9Tn6n/img.png" alt="Profile Picture" class="dp-img" title="Profile pic &copy;Hruday Natakam" ></div>
+                        <div class="hero-details">
+                            <p class="text-primary"><strong>Name:</strong> Hruday Natakam<br>
+                            <strong>Email:</strong> sghnatak@liverpool.ac.uk<br>
+                            <strong>Phone:</strong> +44 1234567890<br>
+                            <strong>Address:</strong> London road, Liverpool</p>
+                        </div>
+                        
+                    </div>
+                    <div class="right-side">
+                        <div class="hero-Bio">
+                            <h2 class="heading-sec">Little about me</h2>
+                            <p class="text-primary">Hey there! welcome to my portofolio. I'm Hruday, a 23-year old postgraduate in <strong>
+                            <a href="https://www.liverpool.ac.uk/" target="_blank">University of Liverpool</a></strong> enrolled in the Data Science and Artificial Intelligence program.
+                            Originlly hailing from Andhra pradesh, India.
+                            </p>
+                            <p class="text-primary"> whether it's driving into research or engaging in lively discussions with peers, I find immense joy in learning process. 
+                            Currently seeking opportunities in my <strong><a href="#career-goal">Career Goal</a></strong> a full-time or internship to develop a well‑versed administration of customers/clients.
+                            </p>
+                            <p class="text-primary" >
+                                I'm open to <strong>Job</strong> opportunities where I can
+                                contribute, learn and grow. If you have a good opportunity that
+                                matches my skills and experience then don't hesitate to
+                                <strong>contact</strong> me.
+                            </p>
+                        </div>
+                        <div class="second">
+                        <a href="#contact" class="btn btn--bg" >hire me Now</a>
+                        <a href="./cv-sample.pdf" class="btn btn--bg" >Download CV</a>
+                      </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </section>
+
+        <!--Carrer goals-->
+        <section id="career-goal" class="career">
+            <h2 class="heading-sec__main">Career Goal</h2>
+            <div class="main-container">
+            <div class="career-goal">
+                <p class="text-primary"> 
+                I’m an aspiring <strong> Data scientist, Data analyst </strong> who wants to become a professional in this field. 
+                I am focused on machine learning, deep learning and natural language processing (NLP) techniques. 
+                I hope to construct models and algorithms that can mine different datasets, leading to new ideas that will inform business decisions, change marketing strategies and facilitate understanding of society.
+                </p>
+                <p class="text-primary">
+                My love for data science started when I became curious about human behaviour, sentiment analysis and trend forecasting. 
+                It is my belief that by using advanced statistical methods as well as predictive models, I can untangle the intricacies of human conduct in various contexts providing useful insights that are industry or discipline agnostic. 
+                At the end of it all, my aim is to create a significant positive impact on the society with data science.
+                </p>
+                <p class="text-primary">
+                The place where big data meets social media and digital communication interests me most. 
+                Applying social media trends analysis in addition to comprehension of online discussion offers solutions for current socio-cultural issues while opening up new opportunities for growth and development. 
+                Because of this, I make sure I keep abreast with emerging technologies and methodologies which will enable me be a pacesetter in the world of data science advancing frontiers in this industry thereby setting path for others into these worlds.
+                </p>
+            </div>
+            </div>
+        </section>
+
+        <!--Education-->
+        <section id="education" class="edu">
+            <h2 class="heading-sec__main">Education</h2>
+            <div class="main-container">
+            <div class="Edu-table">
+                <table class="Edu-table">
+                    <thead class="t-head">
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Location</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody class="t-body">
+                        <tr>
+                            <td> MSc in Data Science and AI</td>
+                            <td><strong><a href="https://www.liverpool.ac.uk/" target="_blank"><u>University of Liverpool</u></a></strong></td><!--target used for blank page and u tag is used for underlining-->
+                            <td>Liverpool, UK</td>
+                            <td><I>Sept 2023-current</I></td>
+                        </tr>
+                        <tr>
+                            <td> BTech in Electronic and communication</td>
+                            <td><strong><a href="https://www.veltech.edu.in/" target="_blank"><u>Veltech Dr.RR and Dr.SR University</u></a></strong></td>
+                            <td> Chennai,India</td>
+                            <td><i>May2022</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </section>
+
+        <!--Work Experience-->
+        <section id="work-experience" class="work">
+            <h2 class="heading-sec__main">Work Experience / Placements</h2>
+            <div class="main-container">
+            <div class="w-table">
+                <table class="work-table">
+                    <thead class="t-head">
+                        <tr>
+                            <th>Company</th>
+                            <th>Position</th>
+                            <th>Location</th>
+                            <th>Duration</th>
+                            <th>Description</th>
+                            <th>Remarks</th>
+                        </tr>
+                    </thead>
+                    <tbody class="t-body">
+                        <tr>
+                            <td><strong>TCS</strong></td>
+                            <td>Junior Developer</td>
+                            <td>Banglore, India</td>
+                            <td>2022 - 2023</td>
+                            <td colspan="2">An entry-level role that allows me to the development in industry to gain experience and build skills. </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Accenture</strong></td>
+                            <td>Intern</td>
+                            <td>Chennai, India</td>
+                            <td>2021 - 2022</td>
+                            <td>To assist the employees with work and learn from them</td>
+                            <td>N.A</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </section>
+        <!--skills-->
+        <section id="skills" class="skills">
+            <h2 class="heading-sec__main">skills</h2>
+            <div class="skills__content">
+                <div class="skills__content-main">
+                  <h3 class="skills__content-title">Skills I Have</h3>
+                  <div class="skills__content-details">
+                    <p class="text-primary">
+                      Hey! It's
+                      <strong>Hruday Natakam</strong>
+                      again and I like to be <strong> Data anlyst or Data scientist </strong> located in
+                      Liverpool. I've intrests in 
+                      <strong> remote </strong>
+                      projects for agencies, consulted for startups, and collaborated
+                      with talented people to create
+                      <strong>digital products </strong>
+                      for both business and consumer use.
+                      
+                    </p>
+                    <p class="text-primary">
+                      I'm a bit of a digital product lover. Over the years, I've used
+                      hundreds of web and mobile apps in different industries and
+                      verticals. I have Soft Skills like Time Management, Teamwork, Problem‑solving, Documentation, Engaging PresentationFeel free to
+                      <strong>contact</strong> me here.
+                    </p>
+                  </div>
+                  <a href="#contact" class="btn btn--bg"
+                    >Contact</a
+                  >
+                </div>
+                <div class="skills__content-skills">
+                  <h3 class="skills__content-title">My Skills</h3>
+                  <div class="s">
+                    <div class="s__skill">PYTHON</div>
+                    <div class="s__skill">C+</div>
+                    <div class="s__skill">HTML</div>
+                    <div class="s__skill">CSS</div>
+                    <div class="s__skill">MATLAB</div>
+                    <div class="s__skill">SQL</div>
+                    <div class="s__skill">GIT</div>
+                    <div class="s__skill">Wordpress</div>
+                    <div class="s__skill">MS OFFICE</div>
+                    <div class="s__skill">JAVA</div>
+                    <div class="s__skill">Android</div>
+                    <div class="s__skill">IOS</div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+         <!--Hobbies-->
+        <section id="hobbies" class="hobbies">
+          <div class="main-container">
+            <h2 class="heading-sec__main">Hobbies and interests</h2>
+            <div class="hobbies-content">
+              <div class="hobbies-row">
+                <div class="hobbies-row-img">
+                  <img src="https://images.pexels.com/photos/12674021/pexels-photo-12674021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cooking image" class="h-img" title="&copy;www.pexels.com/@shvetsa" loading="lazy"><!--lazy loading indicates that it should load slowly -->
+                </div>
+              <div class="hobbies-row-content">
+                <h2 class="hobbies-heading">Cooking</h2>
+                <P class="text-primary">Cooking, particularly Indian cuisine, captivates my heart. Skilled in Indian culinary methods, 
+                  I relish the act of preparing vegetables, blending flavors, and crafting delectable dishes that ignite culinary senses.</P>
+              </div>
+              </div>
+              <div class="hobbies-row">
+                <div class="hobbies-row-img">
+                  <img src="https://images.pexels.com/photos/13781/pexels-photo-13781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="someone driving" class="h-img" title="&copy;www.pexels.com/@ingo" loading="lazy">
+                </div>
+              <div class="hobbies-row-content">
+                <h2 class="hobbies-heading">Driving</h2>
+                <P class="text-primary">Since I was young, I've always loved driving. It makes me feel happy and free. When I turned 18, I started driving myself and became really good at it. 
+                  I can now easily drive in the city and enjoy it even more than when I first started.</P>
+              </div>
+            </div>
+              <div class="hobbies-row">
+                <div class="hobbies-row-img">
+                  <img src="https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Board game" class="h-img" title="&copy;www.pexels.com/@pixabay" loading="lazy" >
+                </div>
+              <div class="hobbies-row-content">
+                <h2 class="hobbies-heading">Video and Board Games</h2>
+                <P class="text-primary">I appreciate the enduring allure of board games, especially the intellectual challenges they present when shared with loved ones. But also
+                  video games have been a passion of mine for as long as I can remember. Gaming, in all its variations, 
+                  is an integral aspect of who I am. I occasionally play in mobile, 
+                  I sometimes switch to my laptop for extended gaming experiences.</P>
+              </div>
+              </div>
+            </div>
+            <div class="hobbies-row">
+              <div class="hobbies-row-img">
+                <img src="https://images.pexels.com/photos/9030281/pexels-photo-9030281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="man swimming" class="h-img"  title="&copy;www.pexels.com/@kindelmedia" loading="lazy">
+              </div>
+            <div class="hobbies-row-content">
+              <h2 class="hobbies-heading">Swimming</h2>
+              <P class="text-primary">I started swimming when I was 12. swimming captivated me, igniting a deep-seated passion that would profoundly 
+                impact my journey. The exhilarating rush of gliding through the water, navigating submerged challenges while holding my breath, 
+                filled me with a sense of adventure and unbridled joy.</P>
+            </div>
+          </div>
+          </div>
+        </section>
+        
+        <!--Achivements-->
+        <section id="Achivements" class="Achivements">
+          <div class="main-container">
+            <h2 class="heading-sec__main">Achivements</h2>
+            <div class="ach-content">
+              
+              <div class="ach-row">
+                <div class="ach-row-img">
+                  <img src="project1.png" alt="project 1st slide view" class="p-img" title="&copy;Hruday Natakam" loading="lazy">
+                </div>
+              <div class="ach-row-content">
+                <h2 class="ach-heading">AI FOR OTIMIZATION AND AUTOMATION IN AIR TRAFFIC CONTROL</h2>
+                <P class="text-primary">
+                  The AI-powered Air Traffic Control system uses smart algorithms to improve air traffic management. It adjusts flight routes to reduce delays and optimize resource use. 
+                  The AI also forecasts congestion and weather issues, enabling controllers to make proactive changes. 
+                  </P>
+              </div>
+            </div>
+            <div class="ach-row">
+              <div class="ach-row-img">
+                <img src="project2.png" alt="recent project 1st slide view" class="p-img" title="&copy;Hruday Natakam" loading="lazy">
+              </div>
+            <div class="ach-row-content">
+              <h2 class="ach-heading">VEHICLE FAULT DETECTION SYSTEM</h2>
+              <P class="text-primary">The fault detection technology in the automotive industry is used to identify any potential malfunctioning in auto parts. 
+                It uses different measured signals to identify faults (mechanical and electrical) in sensors, actuators, and parts involved in major processes</P>
+            </div>
+            </div>
+              <div class="ach-row">
+                <div class="ach-row-img">
+                  <img src="project3.png" alt="project 1st slide view" class="p-img" title="&copy;Hruday Natakam" loading="lazy">
+                </div>
+              <div class="ach-row-content">
+                <h2 class="ach-heading">VISUALISATION OF THE SPACE OF REAL CRYSTAL LATTICES</h2>
+                <P class="text-primary">
+                  currently,I'm working on creating methods to visually represent how real crystal structures are arranged. This helps us understand their crystallographic properties better, which is important for designing materials. 
+                  By giving us a comprehensive view of lattice configurations, this project helps advance materials science and engineering.</P>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <!--contact-->
+        <section id="contact" class="contact sec-pad dynamicBg">
+            <div class="main-container">
+              <h2 class="heading-sec__main">Contact</h2>
+              <div class="contact__form-container">
+                <form action="#" class="contact__form">
+                  <div class="contact__form-field">
+                    <label class="contact__form-label" for="name">Name</label>
+                    <input
+                      required
+                      placeholder="Enter Your Name"
+                      type="text"
+                      class="contact__form-input"
+                      name="name"
+                      id="name">
+                  </div>
+                  <div class="contact__form-field">
+                    <label class="contact__form-label" for="email">Email</label>
+                    <input
+                      required
+                      placeholder="Enter Your Email"
+                      type="text"
+                      class="contact__form-input"
+                      name="email"
+                      id="email">
+                  </div>
+                  <div class="contact__form-field">
+                    <label class="contact__form-label" for="message">Message</label>
+                    <textarea
+                      required
+                      cols="30"
+                      rows="10"
+                      class="contact__form-input"
+                      placeholder="Enter Your Message"
+                      name="message"
+                      id="message"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn--bg">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!--footer -->
+          <footer class="footer">
+              <div class="footer__upper">
+                <div class="footer-info">
+                  <h4 >HRUDAY NATAKAM</h4>
+                  <h6>University of Liverpool Student</h6>
+                </div>
+                <div>
+                  <span class="last-updated">
+                    Last modification: <!--#flastmod file="test3.shtml" -->
+                  </span>
+                </div>
+              </div>
+      
+              <div class="footer__lower">
+                &copy; Copyright 2024. Made by
+                <a rel="noreferrer" target="_blank" href="https://student.csc.liv.ac.uk/~sghnatak/wp-assignment/test3.shtml">Hruday Natakam</a>
+              </div>
+          </footer>
+    </main>
+</body>
